@@ -1,4 +1,4 @@
-const path = requiere ("path");
+const path = require ("path");
 
 const express = require ("express");
 const app = express();
@@ -13,13 +13,13 @@ app.listen(PORT,() => {
 });
 
 app.get("/", (req, res) => {
-    res.senFile (path.resolve(__dirname,"views/home.html"));
+    res.sendFile (path.resolve(__dirname,"views/home.html"));
 });
 
 app.get("/register", (req, res) => {
-    res.senFile (path.resolve(__dirname,"views/register.html"));
+    res.sendFile (path.resolve(__dirname,"views/register.html"));
 });
 
 app.get("/login", (req, res) => {
-    res.senFile (path.resolve(__dirname,"views/login.html"));
+    res.sendFile (path.resolve(__dirname,"views/login.html"));
 });
