@@ -1,0 +1,230 @@
+.pageHeader {
+    font-family: Roboto;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.article{
+    display: inline-block;
+    margin: 5px;
+}
+
+.bg-grey {
+    background-color: #ebebeb;
+}
+
+.bloque{
+    display: inline-block;
+}
+.borde {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.borde-gris {
+    border-color: #ebebeb;
+  }
+
+.borde-none {
+    border: none;
+}
+
+.borde-solido {
+    border-style: solid;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.c-amarillo{
+    background-color: #eac926;
+}
+.c-azul{
+    color: #03264C;
+}
+
+.c-blanco {
+    color: white;
+   }
+
+.c-gris{
+    color: #666;
+}
+
+.c-verde{
+    color: #39b54a;
+}
+
+.display{
+    display: inline-block;
+}
+
+.f-12{
+    font-size: 12px;
+}
+
+.f-16{
+    font-size: 16px;
+}
+
+.f-18{
+    font-size: 18px;
+}
+
+.f-24{
+    font-size: 24px;
+}
+
+.flex {
+    display: flex;
+}
+  
+.flex-wrap {
+    flex-wrap: wrap;
+}
+  
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flotar{
+    float: left;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.icono {
+    color: green;
+    border: green solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+}
+
+.margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-r{
+    margin-right: 8px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.padding8{
+    padding: 8px;
+}
+
+.padding20{
+    padding: 20px;
+}
+
+.padding{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.product-shadow{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.radio5 {
+    border-radius: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+.transition:hover  {
+    transform: rotate(360deg);
+    transition-duration: 1000ms;
+}
+  
+.txt-c{
+    text-align: center;
+}
+
+.txt-l{
+    text-align: left;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+@media (min-width:481px){
+    /*Tablet*/
+    .md-w-25{
+        width: 48%;
+    }
+}
+
+@media (min-width:769px){
+    /*Laptop*/
+    .lg-w-25{
+        width: 23%;
+    }
+    .product-shadow{
+        box-shadow:nome;
+    }
+
+    .description{
+    display:none;
+    }
+
+    .product:hover .description{
+        display: block;
+    }
+}
+
+@media (min-width:1281px){
+    /*Monitor*/
+}
+
+*{box-sizing:border-box;}
+
+form{
+	width:500px;
+	padding:5px;
+	border-radius:3px;
+	margin:auto;
+	background-color:#ebebeb;
+}
+
